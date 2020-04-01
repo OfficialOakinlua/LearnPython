@@ -1,8 +1,8 @@
 # LearnPython
-Review all the python knowledge from scratch towards understanding web development via Django and Machine Learning via Sckit-Learn
+A Review of all the python knowledge from scratch towards understanding web development via Django and Machine Learning via Sckit-Learn
 
 
-Using Python Mega Course: Build 10 Real World Applications
+Using Python Mega Course: Build 10 Real World Applications (Udemy)
 Though, the above is my reference material, I would also be consulting
 different materials for this simple journey to ML and Web development
 
