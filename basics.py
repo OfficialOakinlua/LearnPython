@@ -13,7 +13,7 @@ print("David is a great fighter")
  #I would use a variable, a variable is simply a box that contains certain things
  #this things could be strings, numbers, boolean and objects
 
- #Now let's put line 3 string in a variable named Sentence
+ #Now let's put line 10 string in a variable named Sentence
 
 Sentence = "David is a great fighter"
 print(Sentence)
