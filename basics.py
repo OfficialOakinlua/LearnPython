@@ -176,3 +176,37 @@ sample_tuple[0] #outputs "wow"
 
 #---------------------------
 #Dictionary
+#Dictionary is an unordered collection of data values, used to store data values like a map (Data Structures),
+#which unlike other Data Types that hold only single value as an element
+#Thanks to GeeksforGeeks
+#example
+author = {"firstname": "Olorunfemi", "lastname": "Akinlua", "School": "OAU", "Book": "LearnPython", "ISBN":"None"}
+#basically a dictionary can contain as many key:value pairs ("firstname" - key, "Olorunfemi" - value) as possible
+#so instead of using indexing using numbers (0, 1, 2, 3), you can use the key to access the values like a key can access only a particular
+#door
+
+#therefore, if we want to access the value "OAU" which is the name of my school (Obafemi Awolowo University) we simply write the code below
+author["School"] #in a python interpreter or console, it would output "OAU"
+
+#one thing that is important about dictionary is the feature of its unorderlines
+#check 03.png in the img folder and you would notice that the result of printing author (the dictionary)
+#gives a the 'lastname' first and so on rather than  the 'firstname' first which was the way we inputed it into our
+#python code. it is because of the fact that all of the objects are in an unordered collection
+
+#to verify that the normal indexing doesn't work with dictionaries, try the code below
+#author[0] #it would give you an error message KeyError meaning wrong key use to access a value
+
+#lets update the dictionary to have different kind of objects
+
+author = {"firstname": "Olorunfemi", "lastname": "Akinlua", "School": "OAU", "Book": "LearnPython", "ISBN":"None", "Age" : 19, "Hobbies": ("Football", "Watching Series", "Gaming"), "friends": ["Jacob", "Seun", "Timi", "Simi", "Laolu"]}
+
+#now let's access the age value
+print(author["Age"]) #outputs 19
+print(author["friends"]) #outputs the list ["Jacob", "Seun", "Timi", "Simi", "Laolu"]
+#if i would love to print out seun's name who is one of my friends, it would go like this
+print(author["friends"][1]) #outputs string "Seun"
+print(author["Hobbies"]) #outputs the tuple ("Football", "Watching Series", "Gaming")
+
+
+#this is the end of the basic.py file
+#we move to errors.py
