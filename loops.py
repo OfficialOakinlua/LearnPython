@@ -85,7 +85,7 @@ ListOfSchlrQualified = []
 
 if (age >= 18):
     for schlr in schlrshipList:
-        if ((userCountry in schlr["Schlr Applicant"] or schlr["Schlr Applicant"] == "All") and schlr["Schlr Status"] == "Open" and userRecommendLetters >= schlr["Recommend Letters"] and userGPA >= schlr["Schlr GPA"] ):
+        if ((userCountry in schlr["Schlr Applicant"] or schlr["Schlr Applicant"][0] == "All") and (userPassport == True or schlr["Passport"] == False) and schlr["Schlr Status"] == "Open" and userRecommendLetters >= schlr["Recommend Letters"] and userGPA >= schlr["Schlr GPA"] ):
             ListOfSchlrQualified.append(schlr["SchlrShip Name"])
 else:
     if(userCountry == "Nigeria"):
@@ -97,10 +97,48 @@ else:
         print("Or you have wrongly spelt the name of your Country")
 
 if (len(ListOfSchlrQualified) > 0):
-    print("The number of scholarships qualified is ", len(ListOfSchlrQualified))
+    print("The number of scholarships you're qualified for is ", len(ListOfSchlrQualified))
     print("The list can be seen below:\n")
     print(*ListOfSchlrQualified, sep = ", ")
 else:
     print("You don't qualify for any scholarships at this time. Do make sure your inputted the right information.")
 
 #We would work on the under-18 part more comprehensively as we progress
+
+#You can carry out a for loop on multpile lists, say for example you have initially put all the firstname of people in a list and the lastname in another list
+#you can access the fullname by doing this if it was done in the same order for both lists
+
+usersFirstName = ["Femi", "Jacob", "Timi", "Simi", "Laolu", "Seun"]
+usersLastName = ["Akinlua", "Arigbede", "Arojo", "Adetunji", "Olaoye", "Akinkuolie"]
+
+for firstname, lastname in zip(usersFirstName, usersLastName):
+    print(lastname, firstname)
+#you can see the output in 15.png or try it yourself
+
+
+#---------------
+#while loop
+#while loop is based on conditions so if a conditions isnt True, it would repeat the block of code underneath
+
+#an example
+x = 5
+while (x >= 3):
+    print(x)
+    x = x - 1
+
+#------------------
+#5
+#4
+#3
+#Program Ended
+
+#The way we are going to incorporate it into our program is through the password system to enter the scholarship
+#request and application Program
+
+password = "" #basically you would have enter a password in the sign up page so if your password doesnt equal the one you type now, it would request for you to type again
+while password != 'akinlua123': #we are assuming that the password you entered in your signup page is "akinlua123"
+    password = input("Enter Your Password: ")
+    if password == 'akinlua123':
+        print("You are logged in. Wait to be redirected to the portal")
+    else:
+        print("Incorrect Password")
