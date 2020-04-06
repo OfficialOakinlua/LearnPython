@@ -1,9 +1,9 @@
-#Name: Akinlua, Olorunfemi Praise
-#Date Created: April 01, 2020
-#About: Learn Python (Basics); Based of the Udemy Python Mega Course
-#Version; 1.0
-#Python Version: 3.6
-
+"""Name: Akinlua, Olorunfemi Praise
+Date Created: April 01, 2020
+About: Learn Python (Basics); Based of the Udemy Python Mega Course
+Version; 1.0
+Python Version: 3.6
+"""
 #---------------------
 ###variables###
 
