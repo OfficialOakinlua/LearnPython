@@ -1,9 +1,10 @@
-#Name: Akinlua, Olorunfemi Praise
-#Date Created: April 04, 2020
-#About: Learn Python (Loops); Based of the Udemy Python Mega Course
-#Version: 1.0
-#Python Version: 3.6
-
+"""
+Name: Akinlua, Olorunfemi Praise
+Date Created: April 04, 2020
+About: Learn Python (Loops); Based of the Udemy Python Mega Course
+Version: 1.0
+Python Version: 3.6
+"""
 
 #Loops
 #Loops are used to perform repetitive actions or codes
