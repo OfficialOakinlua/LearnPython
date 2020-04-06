@@ -1,10 +1,11 @@
-#Name: Akinlua, Olorunfemi Praise
-#Date Created: April 03, 2020
-#About: Learn Python (Errors); Based of the Udemy Python Mega Course
-#Version: 1.0
-#Python Version: 3.6
-#DISCLAIMER: this particular py file contains a lot of errors
-
+"""
+Name: Akinlua, Olorunfemi Praise
+Date Created: April 03, 2020
+About: Learn Python (Errors); Based of the Udemy Python Mega Course
+Version: 1.0
+Python Version: 3.6
+DISCLAIMER: this particular py file contains a lot of errors
+"""
 #errors
 #There are different types of errors that one could fall under in Python during the
 #course of coding. It is important and paramount to understanding the process of python coding
