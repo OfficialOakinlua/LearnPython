@@ -1,9 +1,10 @@
-#Name: Akinlua, Olorunfemi Praise
-#Date Created: April 06, 2020
-#About: Learn Python (File Handling); Based of the Udemy Python Mega Course
-#Version: 1.0
-#Python Version: 3.6
-
+"""
+Name: Akinlua, Olorunfemi Praise
+Date Created: April 06, 2020
+About: Learn Python (File Handling); Based of the Udemy Python Mega Course
+Version: 1.0
+Python Version: 3.6
+"""
 
 #Working with text files (*.txt)
 file = open("scholarship.txt", "r") #this python code reads the scholarship txt file (Do know that the python file must be either in the same directory as the txt file or must mention the specific directory and not just the name)
