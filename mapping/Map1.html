@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8dfcb3f5ed6846b8a9ff645975064d9c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_8dfcb3f5ed6846b8a9ff645975064d9c" ></div>
+        
+</body>
+<script>    
+    
+            var map_8dfcb3f5ed6846b8a9ff645975064d9c = L.map(
+                "map_8dfcb3f5ed6846b8a9ff645975064d9c",
+                {
+                    center: [7.5629, 4.52],
+                    crs: L.CRS.EPSG3857,
+                    preferCanvas: false,
+                    zoom: 10,
+                    zoomControl: true,
+                    title: "Osun State",
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b9de3abb3f424ea7bf789c9d96ac0d98 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_8dfcb3f5ed6846b8a9ff645975064d9c);
+        
+    
+            var feature_group_44d0a2d4536a425f9d2c523628199441 = L.featureGroup(
+                {}
+            ).addTo(map_8dfcb3f5ed6846b8a9ff645975064d9c);
+        
+    
+            var marker_aabb65d505e64881bbf50aa34f9731be = L.marker(
+                [7.4905, 4.5521],
+                {}
+            ).addTo(feature_group_44d0a2d4536a425f9d2c523628199441);
+        
+    
+            var icon_76594d361e9147e19fabe66c694ba8c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_aabb65d505e64881bbf50aa34f9731be.setIcon(icon_76594d361e9147e19fabe66c694ba8c1);
+        
+    
+        var popup_ce137d06b23b43809d516be4bf5eb888 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_09f1bb2d56de42cfa0975f9189a6833c = $(`<div id="html_09f1bb2d56de42cfa0975f9189a6833c" style="width: 100.0%; height: 100.0%;">Ile-Ife</div>`)[0];
+            popup_ce137d06b23b43809d516be4bf5eb888.setContent(html_09f1bb2d56de42cfa0975f9189a6833c);
+        
+
+        marker_aabb65d505e64881bbf50aa34f9731be.bindPopup(popup_ce137d06b23b43809d516be4bf5eb888)
+        ;
+
+        
+    
+    
+            var marker_a92c9df402ea4b15a692a3978cc790b6 = L.marker(
+                [7.6292, 4.1872],
+                {}
+            ).addTo(feature_group_44d0a2d4536a425f9d2c523628199441);
+        
+    
+            var icon_ebac330907dc43fc8423fe51f1147da6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_a92c9df402ea4b15a692a3978cc790b6.setIcon(icon_ebac330907dc43fc8423fe51f1147da6);
+        
+    
+        var popup_916b69c167bc4771933af89d1bd6df29 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca2ea91873584938bb979069ecf0807f = $(`<div id="html_ca2ea91873584938bb979069ecf0807f" style="width: 100.0%; height: 100.0%;">Iwo</div>`)[0];
+            popup_916b69c167bc4771933af89d1bd6df29.setContent(html_ca2ea91873584938bb979069ecf0807f);
+        
+
+        marker_a92c9df402ea4b15a692a3978cc790b6.bindPopup(popup_916b69c167bc4771933af89d1bd6df29)
+        ;
+
+        
+    
+    
+            var marker_2c88c7a21bb34af5abd12df14ed20b33 = L.marker(
+                [7.7827, 4.5418],
+                {}
+            ).addTo(feature_group_44d0a2d4536a425f9d2c523628199441);
+        
+    
+            var icon_7545eca03de84c1a95bc4455fa51da29 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2c88c7a21bb34af5abd12df14ed20b33.setIcon(icon_7545eca03de84c1a95bc4455fa51da29);
+        
+    
+        var popup_77db39a1c7cd4f80bdfbfc5e7f7b3d34 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a37122f5d2e4cbf8216444249d74624 = $(`<div id="html_6a37122f5d2e4cbf8216444249d74624" style="width: 100.0%; height: 100.0%;">Osogbo</div>`)[0];
+            popup_77db39a1c7cd4f80bdfbfc5e7f7b3d34.setContent(html_6a37122f5d2e4cbf8216444249d74624);
+        
+
+        marker_2c88c7a21bb34af5abd12df14ed20b33.bindPopup(popup_77db39a1c7cd4f80bdfbfc5e7f7b3d34)
+        ;
+
+        
+    
+    
+            var marker_c079573086e34b6b952acebf847012ea = L.marker(
+                [7.6396, 4.7588],
+                {}
+            ).addTo(feature_group_44d0a2d4536a425f9d2c523628199441);
+        
+    
+            var icon_6233aceaca484a2b95e226b5710dab84 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c079573086e34b6b952acebf847012ea.setIcon(icon_6233aceaca484a2b95e226b5710dab84);
+        
+    
+        var popup_6841591e127d418b99b92c3097d9e0b0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_03e1313ac3e94871ab75f884153a0bee = $(`<div id="html_03e1313ac3e94871ab75f884153a0bee" style="width: 100.0%; height: 100.0%;">Ilesa</div>`)[0];
+            popup_6841591e127d418b99b92c3097d9e0b0.setContent(html_03e1313ac3e94871ab75f884153a0bee);
+        
+
+        marker_c079573086e34b6b952acebf847012ea.bindPopup(popup_6841591e127d418b99b92c3097d9e0b0)
+        ;
+
+        
+    
+</script>
